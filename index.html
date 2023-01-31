@@ -53,42 +53,42 @@
                     class="box-main__input" 
                     type="number" 
                     name="side" 
-                    id="side"
+                    id="side1"
                     placeholder="Ingrese lado 01"
                 >
                 <input 
                     class="box-main__input" 
                     type="number" 
                     name="side" 
-                    id="side"
+                    id="side2"
                     placeholder="Ingrese lado 02"
                 >
                 <input 
                     class="box-main__input" 
                     type="number" 
                     name="side" 
-                    id="side"
+                    id="side3"
                     placeholder="Ingrese lado 03"
                 >
-                <button class="box-main__btn" type="button">Perímetro</button>
+                <button class="box-main__btn" type="button" onclick="calculoPerimetroTriangulo()">Perímetro</button>
 
                 <p class="box-main__text">¿Cuanto mide base y altura de tu Triangulo?</p>
                 <input 
                     class="box-main__input" 
                     type="number" 
                     name="side" 
-                    id="side"
+                    id="base"
                     placeholder="Ingrese Base"
                 >
                 <input 
                     class="box-main__input" 
                     type="number" 
                     name="side" 
-                    id="side"
+                    id="altura"
                     placeholder="Ingrese Altura"
                 >
 
-                <button class="box-main__btn" type="button">Área</button>
+                <button class="box-main__btn" type="button" onclick="calculoAreaTriangulo()">Área</button>
             </div>
         </div>
 
@@ -102,12 +102,12 @@
                     class="box-main__input" 
                     type="number" 
                     name="side" 
-                    id="side"
+                    id="lado"
                     placeholder="Ingrese Radio"
                 >
-                <button class="box-main__btn" type="button">Diámetro</button>
-                <button class="box-main__btn" type="button">Perímetro</button>
-                <button class="box-main__btn" type="button">Área</button>
+                <button class="box-main__btn" type="button" onclick="calculoDiametroCirculo()">Diámetro</button>
+                <button class="box-main__btn" type="button" onclick="calculoPerimetroCirculo()">Perímetro</button>
+                <button class="box-main__btn" type="button" onclick="calculoAreaCirculo()">Área</button>
             </div>
         </div>
     </section>
